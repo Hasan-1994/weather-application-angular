@@ -1,0 +1,12 @@
+<div class="Container">
+  <br />
+  <button
+    (click)="onPress()"
+    [disabled]="clicked"
+    *ngIf="!clicked"
+    type="button"
+    class="btn btn-primary"
+  >
+    <a>Start the Application</a>
+  </button>
+</div>

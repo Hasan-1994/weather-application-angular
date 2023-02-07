@@ -1,0 +1,42 @@
+.header {
+  text-align: center;
+  font-weight: bold;
+}
+.box {
+  float: left;
+  width: 50%;
+  margin: 1%;
+  padding: 20px;
+  background: #eee;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.boxLeft {
+  float: right;
+  margin-right: 20%;
+}
+.box:last-child {
+  margin-right: 0;
+}
+.subheader {
+  text-align: center;
+  font-size: 15px;
+}
+.cardContent {
+  background-color: whitesmoke;
+  height: 100%;
+  align-items: center;
+}
+.cardItems {
+  align-items: center;
+}
+.table {
+  width: 100%;
+  padding: 5px;
+  border: 2px;
+}
+.icons {
+  width: 150px;
+  height: "auto";
+}
